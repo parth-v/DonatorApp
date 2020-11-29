@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="phone_pe">Phone Pe</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="paytm">Paytm</string>
+    <string name="payment_header">Please choose your payment method</string>
+    <string name="donate_now">Donate now</string>
+    <string name="main_header">
+        We are looking forward for kind and generous people who would like to donate some amount for our blood donation campaign!\n\n
+        Do you wish to be a part of this noble cause..
+    </string>
+    <string name="payment_amount">Enter the amount you wish to donate</string>
+    <string name="donate_proceed">Confirm Payment</string>
+    <string name="success_header"></string>
+</resources>
