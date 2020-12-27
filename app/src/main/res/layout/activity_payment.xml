@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".PaymentActivity">
 
     <TextView
@@ -32,6 +33,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/radia_id1"
             android:text="@string/paytm"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp"/>
 
         <RadioButton
@@ -39,6 +41,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/radia_id2"
             android:text="@string/google_pay"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp"/>
 
         <RadioButton
@@ -46,6 +49,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/radia_id3"
             android:text="@string/phone_pe"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp"/>
 
     </RadioGroup>
@@ -68,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textPaymentAmount"
         android:layout_centerHorizontal="true"
+        android:shadowColor="@color/colorPrimary"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="numberDecimal" />
